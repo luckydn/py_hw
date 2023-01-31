@@ -9,7 +9,7 @@ chocolate_dol_x = int(input('Введите количество долек по
 chocolate_dol_y = int(input('Введите количество долек по вертикали: '))
 chocolate_dol_k = int(input('Сколько долек хотите отломить: '))
 
-if ((chocolate_dol_x * chocolate_dol_y) % chocolate_dol_k == 0):
+if chocolate_dol_k % chocolate_dol_x == 0 or chocolate_dol_k % chocolate_dol_y == 0:
     print('Можно')
 else:
     print('Нельзя')
