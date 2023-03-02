@@ -24,5 +24,6 @@ num_columns = int(input("Введите количестро столбцов т
 for i, k in enumerate(range(num_rows), 1):
     list = []
     for j, e in enumerate(range(num_columns), 1):
+        if 
         list.append(i*j)
     print(*list)
